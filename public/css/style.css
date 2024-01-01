@@ -1,0 +1,430 @@
+.container {
+    width: 74%;
+    height: 62vh;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+    margin: 1cm;
+    margin-left: 5cm;
+    border-radius: 1rem;
+
+
+}
+
+.topContainer {
+    width: 74%;
+    height: 25vh;
+    background-color: #8ecccc;
+    position: relative;
+    margin: 1cm;
+    margin-left: 5cm;
+    border-radius: 1rem;
+    color: aliceblue;
+
+
+}
+
+body {
+    background-color: darkslategray;
+}
+
+.firstRaw {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 1cm;
+    margin-top: .5cm;
+}
+
+.secondRaw {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 2.2cm;
+    margin-top: 1.8cm;
+}
+
+.thirdRaw {
+    position: absolute;
+    display: inline-block;
+    width: 79%;
+    height: 2.2cm;
+    margin-top: 4cm;
+}
+
+.thirdSecond {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 2.2cm;
+
+}
+
+.fourthRaw {
+    position: absolute;
+    display: inline-block;
+    height: 2.2cm;
+    margin-top: 6.2cm;
+
+}
+
+.fourthRawSecond {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 2.2cm;
+    margin-left: .22cm;
+
+}
+
+.fourthRawThird {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 2.2cm;
+
+
+}
+
+.fifthRaw {
+    position: absolute;
+    display: inline-block;
+    margin-top: 8.4cm;
+}
+
+.lastRaw {
+    position: absolute;
+    display: inline-block;
+    margin-top: 10.6cm;
+
+}
+
+.lastSecond {
+    position: absolute;
+    display: inline-block;
+}
+
+.lastSpace {
+    position: absolute;
+    display: inline-block;
+}
+
+.lastArrows {
+    position: absolute;
+    display: inline-block;
+
+}
+
+.topButtons {
+    margin-left: .22cm;
+    width: 2cm;
+    height: .9cm;
+    border-color: lightblue;
+    color: lightblue;
+    background-color: black;
+    border-radius: .1cm;
+}
+
+.numberButtons {
+    margin-left: .22cm;
+    width: 1.9cm;
+    height: 1.9cm;
+    border-color: lightblue;
+    color: lightblue;
+    background-color: black;
+    border-radius: .1cm;
+
+}
+
+.alphabet {
+    margin-left: .22cm;
+    width: 1.9cm;
+    height: 1.9cm;
+    border-color: lightblue;
+    color: lightblue;
+    background-color: black;
+    border-radius: .1cm;
+    text-align: center;
+    font-size: larger;
+
+
+}
+
+.delete {
+    margin-left: .22cm;
+    width: 3.25cm;
+    height: 1.9cm;
+    border-color: lightblue;
+    color: lightblue;
+    background-color: black;
+    border-radius: .1cm;
+
+}
+
+.capslock {
+    margin-left: .22cm;
+    width: 3.7cm;
+    height: 1.9cm;
+    border-color: lightblue;
+    color: lightblue;
+    background-color: black;
+    border-radius: .1cm;
+
+}
+
+.shift {
+    margin-left: .22cm;
+    width: 4.8cm;
+    height: 1.9cm;
+    border-color: lightblue;
+    color: lightblue;
+    background-color: black;
+    border-radius: .1cm;
+
+}
+
+.alt {
+    margin-left: .22cm;
+    width: 2cm;
+    height: 2.2cm;
+    border-color: lightblue;
+    color: lightblue;
+    background-color: black;
+    border-radius: .1cm;
+}
+
+.command {
+    margin-left: .22cm;
+    width: 2.6cm;
+    height: 2.2cm;
+    border-color: lightblue;
+    color: lightblue;
+    background-color: black;
+    border-radius: .1cm;
+}
+
+.space {
+    margin-left: .22cm;
+    width: 11cm;
+    height: 2.2cm;
+    border-color: lightblue;
+    color: lightblue;
+    background-color: black;
+    border-radius: .1cm;
+}
+
+.arrow {
+    margin-top: 1.5cm;
+    margin-left: .22cm;
+    width: 1.95cm;
+    height: .7cm;
+    border-color: lightblue;
+    color: lightblue;
+    background-color: black;
+    border-radius: .1cm;
+
+}
+
+.arrowup {
+    margin-top: .5cm;
+    margin-left: .22cm;
+    width: 1.95cm;
+    height: .7cm;
+    border-color: lightblue;
+    color: lightblue;
+    background-color: black;
+    border-radius: .1cm;
+
+}
+
+.arrowdown {
+    margin-top: .2cm;
+    margin-left: .22cm;
+    width: 1.95cm;
+    height: .7cm;
+    border-color: lightblue;
+    color: lightblue;
+    background-color: black;
+    border-radius: .1cm;
+
+}
+
+.lastarrow {
+    margin-top: .2cm;
+    margin-left: .22cm;
+    width: 1.95cm;
+    height: .7cm;
+    border-color: lightblue;
+    color: lightblue;
+    background-color: black;
+    border-radius: .1cm;
+}
+
+.button:active,
+.active {
+    top: 2px;
+    left: 1px;
+    box-shadow: none;
+    background-color: white;
+}
+
+/* .Escape {
+    font-weight: 500;
+}
+
+.BrightnessDown {
+    font-weight: 500;
+}
+
+.F2 {
+    font-weight: 500;
+}
+
+.F3 {
+    font-weight: 500;
+}
+
+.F4 {
+    font-weight: 500;
+}
+
+.F5 {
+    font-weight: 500;
+}
+
+.F6 {
+    font-weight: 500;
+}
+
+.F7 {
+    font-weight: 500;
+}
+
+.F8 {
+    font-weight: 500;
+}
+
+.F9 {
+    font-weight: 500;
+}
+
+.F10 {
+    font-weight: 500;
+}
+
+.F11 {
+    font-weight: 500;
+}
+
+.F12 {
+    font-weight: 500;
+}
+
+.Tap {
+    font-weight: 500;
+}
+
+.q {
+    font-weight: 500;
+}
+
+.w {
+    font-weight: 500;
+}
+
+.e {
+    font-weight: 500;
+}
+
+.r {
+    font-weight: 500;
+}
+
+.t {
+    font-weight: 500;
+}
+
+.y {
+    font-weight: 500;
+}
+
+.u {
+    font-weight: 500;
+}
+
+.i {
+    font-weight: 500;
+}
+
+.o {
+    font-weight: 500;
+}
+
+.p {
+    font-weight: 500;
+}
+
+.BracketRight {
+    font-weight: 500;
+}
+
+.BracketLeft {
+    font-weight: 500;
+}
+
+.Backslash {
+    font-weight: 500;
+}
+
+.Enter {
+    font-weight: 500;
+}
+
+.Meta {
+    font-weight: 500;
+}
+
+.Fn {
+    font-weight: 500;
+}
+
+.Alt {
+    font-weight: 500;
+}
+
+.Alt1 {
+    font-weight: 500;
+}
+
+.Shift {
+    font-weight: 500;
+}
+
+.ArrowUp {
+    font-weight: 500;
+}
+
+.ArrowLeft {
+    font-weight: 500;
+}
+
+.ArrowRight {
+    font-weight: 500;
+}
+
+.ArrowDown {
+    font-weight: 500;
+}
+
+.Backspace {
+    font-weight: 500;
+}
+
+/* 
+.CapsLock {
+    font-weight: 500;
+} */
+
+/* .Control {
+    font-weight: 500;
+} */
